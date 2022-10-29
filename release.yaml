@@ -3,7 +3,7 @@ name: Release and deploy Todo
 on:
    push:
       branches:
-      - "release/.+"
+      - "release/[A-Zaa-Z0-9.]+"
   jobs :
     release-and-deploy:
       runs-on: ubuntu-latest
